@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Врачевание</title>
+</head>
+
+<body>
+
+  <div>
+    <form formnovalidate>
+      <fieldset>
+        Информация
+        <p><label for="name">Фамилия Имя </label><input type="text" id="name" required placeholder="Иванов Иван" maxlength="30">
+        </p>
+        <p><label for="age">Возраст</label> <input type="number" id="number" required min="0" max="120" step="1"></p>
+        <p><label for="email">E-mail</label> <input type="email" id="email" required placeholder="name@gmail.com"></p>
+        <p><label for="name">Номер телефона</label> <input type="tel" id="phone" required placeholder="+37529XXXXXXX"
+            minlength="13" maxlength="13"></p>
+        <p>Можете что-нибудь написать но нам все равно мы не читаем</p>
+        <textarea readonly name="texttt" id="descr" cols="50" rows="5" maxlength="200"></textarea>
+      </fieldset>
+
+      <p>Что вас беспокоит? Ну сразу врачу покажут чтобы понимал примерно</p>
+      <p><input type="checkbox" name="a" value="100" checked>Рак печени</p>
+      <p><input type="checkbox" name="a" value="101">Грыжа</p>
+      <p><input type="checkbox" name="a" value="102">Насморк</p>
+      <p><input type="checkbox" name="a" value="103">Боли в спине</p>
+      <p><input type="checkbox" name="a" value="104">Переломаны все кости </p>
+      <p><input type="checkbox" name="a" value="105" checked>Альцгеймер</p>
+      <p><input type="checkbox" name="a" value="106">Альцгеймер</p>
+      </p>
+      <p><select name="Vrachi">
+          <optgroup label="Женская консультация">
+            <option value="r1">врач акушер-гинеколог Балыко А. А.</option>
+            <option value="r2">врач акушер-гинеколог Сугакова О. В.</option>
+          </optgroup>
+          <optgroup label="Кабинет оториноларинголога">
+            <option value="u1">Григолец А. В., врач-оториноларинголог</option>
+            <option value="u2">Дерушева В. А., врач-оториноларинголог</option>
+            <option value="u3">Ерш Л. С., врач-оториноларинголог</option>
+            <option value="u4">Косоногова А. А., врач-оториноларинголог</option>
+          </optgroup>
+          <optgroup label="Кабинет офтальмолога">
+            <option value="z1">Артамонова Т. Е., врач-офтальмолог</option>
+            <option value="z2">Бирюкова Л. А., врач-офтальмолог</option>
+            <option value="z3">Косоногов И. А., врач-офтальмолог</option>
+          </optgroup>
+        </select></p>
+      <p><input type="submit" value="Заказать талон">
+      <input type="reset" value="ай блин все неправильно написал надо стереть"> </p>
+    </form>
+  </div>
+</body>
+</html>
