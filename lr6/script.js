@@ -8,6 +8,8 @@ for(let i = 1; i < 6; i++) {
 buts[6] = document.getElementById(`b6`);
 buts[6].onclick = function() {alert(`И у нас получилось ${sum}, норм калькулятор")`); sum = 0;}
 
+
+
 let myName = window.prompt("Кто к нам пришел");
  if(!myName) {
   alert("Мы таких не знаем");
