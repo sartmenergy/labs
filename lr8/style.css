@@ -1,0 +1,23 @@
+fieldset{
+  width: 700px;
+  height: 150px;
+}
+input{
+  height:30px;
+  font-size: 18px;
+}
+
+button {
+  height:40px;
+  font-size: 18px;
+}
+p {
+  font-size: 20px;
+}
+.f3 {
+  height: 250px;
+}
+.f5 {
+  width: 850px;
+  height: 200px;
+}
