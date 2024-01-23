@@ -1,0 +1,59 @@
+.cl1 {
+  color: blue;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.cl2 {
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+}
+.cl3 {
+  color: darkgreen;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+}
+.cl4 {
+  width: 68px;
+  height: auto;
+  color: rgb(0, 0, 0);
+  border: 1px dotted red;
+  border-width: 3px;
+  padding: 0px;
+  font-size: 20px;
+}
+.cl5 {
+  color: blue;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+}
+.cl_yellow{
+  color: yellow;
+  font-size: 20px;
+}
+.cl_fon{
+  background-color: blue;
+  font-weight: 700;
+  font-size: 20px;
+}
+.button{
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+}
+.button1{
+  height: 50px;
+  width: 80px;
+  font-size: 20px;
+}
+.invisibility{
+  color: white;
+}
+.p1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: red;
+  width: 540px;
+}
