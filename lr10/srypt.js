@@ -138,7 +138,7 @@ let reverseStroka = stroka.reverse();
 let opyatVmassiv = reverseStroka.join('');
 if (opyatVmassiv == v8)
 {
-  resultat8.innerHTML ="реверсается";
+  resultat8.innerHTML ="строка реверсается";
 }
 else {
   resultat8.innerHTML ="нет";
