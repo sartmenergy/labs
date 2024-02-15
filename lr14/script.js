@@ -146,6 +146,7 @@ but63.addEventListener('click', changeLink);
 
 // 7. Средствами JavaScript добавьте на веб-страницу таблицу в
 // соответствии с вариантом, таблица 16.1
+result101 = document.getElementById('result101')
 let table = '<table>';
 let count = 1;
 for (let i = 0; i < 3; i++) {
@@ -165,5 +166,5 @@ count++;
 table += '</tr>';
 }
 table += '</table>';
-document.body.innerHTML += table;
+result101.innerHTML = table;
 
