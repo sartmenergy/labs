@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <title>вторая часть</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="img" data-toggle="modal" data-target="#imageModal" data-img="./first.jpg"
+          data-desc="Ну обезьяная маленькая открыла рот все что могу сказать">
+          <img src="first.jpg" alt="Image 1" width="300px" height="300px">
+        </div>
+        <p>крутая обезьяна</p>
+      </div>
+      <div class="col-md-4">
+        <div class="img" data-toggle="modal" data-target="#imageModal" data-img="./second.jpg"
+          data-desc="потрясающий православный неодетый мужчина пьет странный смузи">
+          <img src="./second.jpg" alt="Image 2" width="300px" height="300px">
+        </div>
+        <p>крутой мужик</p>
+      </div>
+      <div class="col-md-4">
+        <div class="img" data-toggle="modal" data-target="#imageModal" data-img="./third.jpg"
+          data-desc="это белый кот и он трижды чем-то доволен">
+          <img src="./third.jpg" alt="Image 3" width="300px" height="300px">
+        </div>
+        <p>класс</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="#" id="modalImage" style="width: 100%;">
+          <p id="modalDescription"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="https://sartmenergy.github.io/labs/lr21/">некст</a>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script>
+    $(".img").click(function () {
+      let imgSrc = $(this).data("img");
+      let imgDesc = $(this).data("desc");
+      $("#modalImage").attr("src", imgSrc);
+      $("#modalDescription").text(imgDesc);
+    });
+  </script>
+</body>
+
+</html>
